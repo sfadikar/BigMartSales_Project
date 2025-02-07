@@ -23,7 +23,9 @@ BigMartSales_Project/
 ├── main.py                   # Main training and model execution script
 ├── model_evaluation.py       # Model evaluation script
 ├── model_training.py         # Model training script
-└── README.md                 # Project instructions (this file)
+├── README.md                 # Project instructions (this file)
+├── Rank_Score.png            # Rank & Score of my submission
+└── 1_Page_Approach_Note.pdf  # Approach of this case study
 
 
 ⚙️ How to Set Up and Run the Project
@@ -36,8 +38,9 @@ Ensure you have Python 3.7 or higher installed. Install the required packages:
 pip install -r requirements.txt
 
 3️⃣ Run the Main Script
-To execute the entire pipeline, including data preprocessing, feature engineering, model training, and prediction generation:
-python main.py
+To run the entire project pipeline, execute the main script:
+```bash
+python BigMartSales_Project.py
 
 4️⃣ View the Results
 The predictions will be saved at:
@@ -70,3 +73,4 @@ joblib
 📝 Author
 Soumyadip Fadikar
 Email: rkmvpsf@gmail.com
+
